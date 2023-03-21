@@ -3,6 +3,7 @@
 function palindrome(str){
 let checkStr=str
 	let strArr=str.split("").reverse().join("")
-	return str==strArr
+	
+	return checkStr==strArr
 }
 module.exports = palindrome
